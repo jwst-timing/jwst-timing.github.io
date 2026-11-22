@@ -37,7 +37,8 @@
 - name: Phil Charles
   affiliation: University of Southampton
 
-- name: Tomaso Belloni (sorely missed)
+- name: Tomaso Belloni
+  role: in memoriam
   affiliation: INAF Osservatorio Astronomico di Brera
 
 - name: Craig Heinke
@@ -88,7 +89,8 @@
 - name: Gregory Sivakoff
   affiliation: University of Alberta
 
-- name: Tom Marsh (R.I.P)
+- name: Tom Marsh
+  role: in memoriam
   affiliation: University of Warwick
 
 - name: Vik Dhillon
