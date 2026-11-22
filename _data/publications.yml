@@ -1,0 +1,53 @@
+# JWST Timing Consortium publications, NEWEST FIRST.
+# To add a paper, copy one block, paste it at the top, and edit. See README.md.
+# Fields: year, authors (as you want them shown), title, journal, and any of arxiv / doi / url.
+# "summary" is optional: one plain-language sentence shown under the title.
+# "note" is optional: a comment shown in a highlighted box (e.g. how the paper relates to the consortium).
+
+- year: 2026
+  authors: Gandhi, P., Russell, D. M., et al.
+  title: Infrared synchrotron emission in the soft state of GX 339–4 and the mid-infrared/X-ray luminosity plane of black hole X-ray binaries
+  journal: MNRAS, 548, stag619
+  doi: 10.1093/mnras/stag619
+  arxiv: 2510.01338
+  summary: JWST/MIRI finds bright, variable mid-infrared emission from GX 339–4 in its disc-dominated soft state, likely synchrotron radiation from the same hot plasma that produces the high-energy X-ray tail.
+
+- year: 2026
+  authors: Roemsri, P., McCarver, A., Maccarone, T. J., Shaw, A. W., Gandhi, P., Kaplan, D., Dang, T.
+  title: A web-based interactive visualization tool for astronomical time series
+  journal: AIP Conf. Proc. 3378, 040001 (APCT 2025)
+  url: https://pubs.aip.org/aip/acp/article-abstract/3378/1/040001/3376066/A-web-based-interactive-visualization-tool-for
+  summary: An interactive tool for choosing the phase binning of folded light curves in real time.
+
+- year: 2026
+  authors: Santos-Sanz, P., et al.
+  title: JWST stellar occultation reveals unexpected changes in Chariklo's ring system
+  journal: Science Advances, 12 (37)
+  doi: 10.1126/sciadv.aeh4794
+  arxiv: 2510.06366
+  summary: The first stellar occultation planned and observed with JWST shows that the rings of the Centaur Chariklo have changed in just a few years.
+  note: Led by consortium members using NIRCam at a 3.3 Hz cadence. The occultation was cited as an early demonstration of JWST timing in Shaw et al. (2025).
+
+- year: 2025
+  authors: Borowski, E. S., Hynes, R. I., et al.
+  title: The mid-infrared-emitting jet in the black hole V404 Cygni in quiescence
+  journal: ApJL, 991, L31
+  doi: 10.3847/2041-8213/ae0322
+  arxiv: 2506.20536
+  summary: Rapid 21 µm flaring seen by JWST, together with simultaneous radio-to-X-ray data, shows the mid-infrared excess of V404 Cyg comes from a jet.
+
+- year: 2025
+  authors: Shaw, A. W., Kaplan, D. L., Gandhi, P., et al.
+  title: Calibrating the clock of JWST
+  journal: AJ, 169, 21
+  doi: 10.3847/1538-3881/ad8eb1
+  arxiv: 2411.02238
+  summary: Eclipses of the double white dwarf ZTF J1539+5027 pin JWST's absolute clock accuracy to 0.12 ± 0.06 s.
+
+- year: 2025
+  authors: Gandhi, P., Borowski, E. S., Byrom, J., et al.
+  title: "Rapid mid-infrared spectral timing with JWST: GRS 1915+105 during an MIR-bright and X-ray-obscured state"
+  journal: MNRAS, 537, 1385
+  doi: 10.1093/mnras/staf036
+  arxiv: 2406.18637
+  summary: Mid-infrared spectral timing of the microquasar GRS 1915+105 reveals ~1% variability on ~1000 s timescales, with the brightest emission line lagging the continuum.

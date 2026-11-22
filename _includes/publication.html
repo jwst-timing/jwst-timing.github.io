@@ -1,0 +1,11 @@
+<li class="pub">
+  <p class="pub-title">{{ include.pub.title }}</p>
+  <p class="pub-meta">{{ include.pub.authors }} ({{ include.pub.year }}). <span class="pub-journal">{{ include.pub.journal }}</span></p>
+  {% if include.pub.summary and include.show_summary %}<p class="pub-summary">{{ include.pub.summary }}</p>{% endif %}
+  {% if include.pub.note %}<p class="pub-note">{{ include.pub.note }}</p>{% endif %}
+  <p class="pub-links">
+    {% if include.pub.doi %}<a href="https://doi.org/{{ include.pub.doi }}">Journal</a>{% endif %}
+    {% if include.pub.arxiv %}<a href="https://arxiv.org/abs/{{ include.pub.arxiv }}">arXiv:{{ include.pub.arxiv }}</a>{% endif %}
+    {% if include.pub.url %}<a href="{{ include.pub.url }}">Publisher page</a>{% endif %}
+  </p>
+</li>

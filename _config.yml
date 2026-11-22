@@ -1,0 +1,33 @@
+# Site settings. GitHub Pages builds this site with Jekyll automatically on every push.
+title: JWST Timing Consortium
+description: Enabling and exploiting rapid, sub-second time-domain astronomy with the James Webb Space Telescope.
+url: https://jwst-timing.github.io
+
+contact:
+  name: Poshak Gandhi
+  role: Coordinator
+  email: p.gandhi@southampton.ac.uk
+  address:
+    - School of Physics & Astronomy
+    - University of Southampton
+    - Southampton SO17 1BJ, UK
+
+# Pages shown in the top navigation, in order.
+nav:
+  - title: Home
+    url: index.html
+  - title: Publications
+    url: publications.html
+  - title: Calibration
+    url: calibration.html
+  - title: Instruments
+    url: instruments.html
+  - title: Team
+    url: team.html
+
+# How many papers to show under "Recent results" on the home page.
+home_recent: 3
+
+exclude:
+  - README.md
+  - tools/
