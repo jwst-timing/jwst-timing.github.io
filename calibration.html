@@ -1,187 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Persona Website">
-	<meta name="author"      content="JWST Timing Consortium">
+---
+layout: default
+title: Calibration
+nav: calibration.html
+description: Measuring the absolute timing accuracy of JWST's clock.
+---
+<div class="prose">
+  <h1>Calibration</h1>
+  <p class="lede">Timing science needs two things: precise spacing between frames, and knowing when a time series starts, to well under a second. Our first goal was to test both.</p>
 
-	<title>JWST Timing Consortium</title>
+  <h2>Calibrating the clock of JWST</h2>
+  <p>We observed the deeply eclipsing double white dwarf ZTF&nbsp;J153932.16+502738.8, whose 6.9-minute orbit and sharp eclipses make it a natural clock. Its eclipse times are tracked from the ground with GPS-synchronised instruments, so JWST's timestamps can be compared directly with them.</p>
+  <p>Over two epochs, JWST's absolute timing accuracy averages <strong>0.12&nbsp;±&nbsp;0.06&nbsp;s</strong>. That means JWST can be used for sub-second timing down to about the 100&nbsp;ms level.</p>
+  <p>Shaw et al. 2025, AJ 169, 21: <a href="https://doi.org/10.3847/1538-3881/ad8eb1">journal</a>, <a href="https://arxiv.org/abs/2411.02238">arXiv:2411.02238</a></p>
 
-
-	<!-- Bootstrap -->
-	<link href="assets/bootstrap-3.0.0/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
-	<link href="assets/bootstrap-3.0.0/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="assets/bootstrap-3.0.0/bootstrap.min.js"></script>
-	<script src="assets/js/template.js"></script>
-</head>
-<body>
-
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
-		<h1 id="logo" class="text-center">
-			<span class="title">JWST Timing Consortium</span>
-		</h1>
-	</div>
-
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-
-			<div class="navbar-collapse collapse">
-
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="instruments.html">Instruments</a></li>
-					<li><a href="calibration.html">Calibrations</a></li>
-					<!--<li class="dropdown">
-						<a href="research.html" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="j1433.html">J1433 Nature</a></li>
-							<li><a href="xray_pulsar.html">Impossible Jet</a></li>
-							<li><a href="opticam.html">OPTICam</a></li>
-						</ul>
-					</li>-->
-					<li><a href="team.html">Team</a></li>
-				</ul>
-
-			</div><!--/.nav-collapse -->
-		</div>
-	</nav>
-</header>
-
-<main id="main">
-
-	<div class="container">
-
-		<div class="row topspace">
-
-
-
-			<!-- Article main content -->
-			<article class="col-sm-8 maincontent">
-				<header class="page-header">
-					<h1 class="page-title">Calibration</h1>
-				</header>
-
-				<p align="justify">
-					Our primary goal will be to calibrate the absolute timing accuracy of JWST's clock. For this, we aim to test the precision and drift of the clock through calibration observations.
-
-
-				</p>
-				<p align="justify">
-					One way this could be possible is strictly simultaneous observations of a variable astronomical source/event from JWST and from a GPS-calibrated instrument on the ground.
-				</p>
-				<p align="justify">
-					Other ideas are welcome.
-					<figure>
-				</p>
-
-			</article>
-			<!-- /Article -->
-			<!-- Sidebar -->
-			<aside class="col-md-4 sidebar sidebar-left">
-
-
-				<div class="row widget">
-					<div class="col-xs-12">
-						<p><h8>Resources:</h8><br>
-						<a href="#" target="_blank">  TBD</a> </p>
-					</div>
-
-					<div class="col-xs-12">
-						<p><h8>Publications:</h8><br>
-						<a href="#" target="_blank">  TBD</a> </p>
-					</div>
-				</div>
-
-				<!--<div class="row widget">
-					<div class="col-xs-12">
-						<p><img src="assets/images/TransformerPulsar.jpg" alt=""></p>
-						<p>State Transition of PSR J1023 from Millisecond Pulsar (top) to Low-mass X-ray Binary state (bottom). Credit: NASA's Goddard Space Flight Center.</p>
-					</div>
-				</div>-->
-
-			</aside>			<!-- /Sidebar -->
-
-		</div>
-
-	</div>	<!-- /container -->
-
-</main>
-
-<footer id="footer" class="topspace">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="col-md-6 widget">
-					<h3 class="widget-title">Contact</h3>
-					<div class="widget-body">
-						<p>
-							Coordinator: Poshak Gandhi<br>
-							<a href="mailto:#">p.gandhi@southampton.ac.uk</a><br>
-							<br>
-							School of Physics & Astronomy<br>
-							University of Southampton<br>
-							SO17 1BJ, Southampton, UK <br>
-						</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 widget">
-					<h3 class="widget-title">Follow us!</h3>
-					<div class="widget-body">
-						<p class="follow-me-icons">
-							<a href="https://twitter.com/Alymantara" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
-						</p>
-					</div>
-				</div>
-
-
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-				<p>
-				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2019, JWST Timing Consortium<br>
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-
-
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
-</body>
-</html>
+  <h2>Further reading</h2>
+  <ul>
+    <li><a href="https://jwst-docs.stsci.edu/jwst-observatory-characteristics/jwst-time-keeping-accuracy-and-precision">JWST time keeping accuracy and precision</a> (JWST User Documentation)</li>
+  </ul>
+  <p>Ideas for further calibration tests are welcome. <a href="mailto:{{ site.contact.email }}">Get in touch</a>.</p>
+</div>

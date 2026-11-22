@@ -1,172 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Personal Website">
-	<meta name="author"      content="JWST Timing Consortium">
+---
+layout: default
+title: JWST Timing Consortium
+nav: index.html
+---
+<section class="hero">
+  <h1>Infrared astronomy at sub-second speed</h1>
+  <p class="lede">JWST is the largest and most sensitive infrared space telescope yet built. Read out in small detector subarrays, it can sample a source every ~0.1&nbsp;s. We work to make that timing trustworthy, and use it to study how compact objects, jets and small bodies vary on the fastest timescales.</p>
+  <figure class="hero-figure">
+    {% include lightcurve.svg %}
+    <figcaption>Schematic only: the kind of signal we look for, with rapid flickering broken by sharp eclipses. Real light curves are in the papers below.</figcaption>
+  </figure>
+</section>
 
-	<title>JWST Timing Consortium</title>
+<section class="prose">
+  <h2>What we do</h2>
+  <p>The rapid time-domain infrared remains largely unexplored. Our consortium enables and exploits timing studies with JWST, from calibrating the observatory's clock to measuring lags between the infrared and other wavebands. Current interests include accretion onto black holes and neutron stars, relativistic jets, stellar occultations by Solar System bodies, pulsating sources and more.</p>
+  <p>Using eclipses of a double white dwarf, we measured JWST's absolute clock accuracy to be 0.12&nbsp;±&nbsp;0.06&nbsp;s, so it can be used for timing studies down to the ~100&nbsp;ms level. <a href="calibration.html">How we calibrated the clock</a></p>
+</section>
 
+<section>
+  <h2>Recent results</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications limit: site.home_recent %}
+      {% include publication.html pub=pub show_summary=true %}
+    {% endfor %}
+  </ol>
+  <p><a href="publications.html">All publications</a></p>
+</section>
 
-	<!-- Bootstrap -->
-	<link href="assets/bootstrap-3.0.0/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
-	<link href="assets/bootstrap-3.0.0/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="assets/bootstrap-3.0.0/bootstrap.min.js"></script>
-	<script src="assets/js/template.js"></script>
-</head>
-<body class="home">
-
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/jwst.jpg" alt="">
-			<span class="title">JWST Timing Consortium</span>
-		</h1>
-	</div>
-
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-
-			<div class="navbar-collapse collapse">
-
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="instruments.html">Instruments</a></li>
-					<li><a href="calibration.html">Calibrations</a></li>
-					<!--<li class="dropdown">
-						<a href="research.html" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="j1433.html">J1433 Nature</a></li>
-							<li><a href="xray_pulsar.html">Impossible Jet</a></li>
-							<li><a href="opticam.html">OPTICam</a></li>
-						</ul>
-					</li>-->
-					<li><a href="team.html">Team</a></li>
-				</ul>
-
-			</div><!--/.nav-collapse -->
-		</div>
-	</nav>
-</header>
-
-<main id="main">
-
-	<div class="container">
-
-		<div class="row section topspace">
-
-
-		</div> <!-- / section -->
-
-
-
-		<article class="col-sm-8 maincontent">
-			<div class="col-md-12">
-				<p class="lead text-muted" align="justify">
-					Rapid time-domain infrared parameter space remains unexplored. <strong><a href="https://www.jwst.nasa.gov">JWST</a></strong> is NASA's newest frontier mission, and the largest and most sensitive infrared space telescope to-date. JWST's sub-array capabilites allow for time resolutions down to about 0.1 s. Combined with the unprecedented sensitivity of the mission, this opens up a range of scientific possibilities.
-				</p>
-				<p class="lead text-muted" align="justify">
-					Our aim is to enable and exploit timing studies with JWST. The interests of the current consortium members include accretion studies, occultations, pulsating sources, and more. If you are interested in participating in the consortium, get in touch with us.
-				</p>
-
-			</div>
-		</article>
-
-		<aside class="col-sm-4 sidebar sidebar-right">
-            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/NASAWebb" data-widget-id="655685765653995520" height=500>Tweets by @NASAWebb</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			<!--<p class="lead text-muted" align="justify">
-				<h4>Past/Next Events </h4>
-				<p><strong>2019</strong>
-				<li>Organising  <a href="http://outflows2019.com" >From wind to jets: the role of outflows in compact binaries</a> - 1-3 July, Amsterdam, NL</li>
-				</p>
-				<p><strong>2018</strong>
-				<li>Solicited talk at <a href="http://cospar2018.org" >COSPAR 2018</a> - 13-22 July, Pasadena, USA</li>
-				</p>
-				<p><strong>2017</strong>
-				<li><a href="http://texas2017.org" >29th Texas Symposium on Relativistic Astrophysics</a> - 3-8 December, Cape Town, South Africa </li>
-				<li><a href="https://www.cosmos.esa.int/web/jwst-2017-esac/home" >ESAC 2017 JWST Workshop</a> - 4-6 October, Madrid </li>
-				<li>Invited Talk at <a href="http://www.iac.es/congreso/GAW2017/">La Gomera Accretion Week 2017</a> - 11-15 September, La Gomera</li>
-				</p>
-			</p>-->
-		</aside>
-
-
-	</div>	<!-- /container -->
-
-</main>
-
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 widget">
-				<h3 class="widget-title">Contact</h3>
-				<div class="widget-body">
-					<p>
-						Coordinator: Poshak Gandhi<br>
-						<a href="mailto:#">p.gandhi@southampton.ac.uk</a><br>
-						<br>
-						School of Physics & Astronomy<br>
-						University of Southampton<br>
-						SO17 1BJ, Southampton, UK <br>
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<h3 class="widget-title">Follow us!</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href="https://twitter.com/NASAWebb" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
-					</p>
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-<footer id="underfooter">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-				<p>
-				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2019, JWST Timing Consortium<br>
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
-				</div>
-			</div>
-
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
-
-</body>
-</html>
+<section class="prose">
+  <h2>Join the consortium</h2>
+  <p>We welcome new members, collaborators and ideas for JWST timing programmes. Email the coordinator, <a href="mailto:{{ site.contact.email }}">{{ site.contact.name }}</a>.</p>
+</section>

@@ -1,0 +1,101 @@
+# Consortium members, in display order. Add a person by copying a block.
+# 'role' is optional (e.g. PI, co-PI).
+
+- name: Poshak Gandhi
+  role: PI
+  affiliation: University of Southampton
+
+- name: Tom Maccarone
+  role: co-PI
+  affiliation: Texas Tech University
+
+- name: Aarran Shaw
+  role: co-PI
+  affiliation: U. Nevada Reno
+
+- name: Abigail Stevens
+  affiliation: Michigan State University
+
+- name: Juan Hernández Santisteban
+  affiliation: University of St Andrews
+
+- name: Richard French
+  affiliation: Wellesley College
+
+- name: David Kaplan
+  affiliation: University of Wisconsin-Madison
+
+- name: Mike Ressler
+  affiliation: Jet Propulsion Laboratory
+
+- name: Piergiorgio Casella
+  affiliation: Osservatorio Astronomico di Roma
+
+- name: John Tomsick
+  affiliation: University of California - Berkeley
+
+- name: Phil Charles
+  affiliation: University of Southampton
+
+- name: Tomaso Belloni
+  affiliation: INAF Osservatorio Astronomico di Brera
+
+- name: Craig Heinke
+  affiliation: University of Alberta
+
+- name: Rob Hynes
+  affiliation: Louisiana State University
+
+- name: Anjali Rao
+  affiliation: University of Southampton
+
+- name: Stacey Bright
+  affiliation: Space Telescope Science Institute
+
+- name: Christian Knigge
+  affiliation: University of Southampton
+
+- name: Chris Done
+  affiliation: Durham University
+
+- name: Chris Britt
+  affiliation: Space Telescope Science Institute
+
+- name: Diego Altamirano
+  affiliation: University of Southampton
+
+- name: Dave Russell
+  affiliation: New York University - Abu Dhabi
+
+- name: David Buckley
+  affiliation: South African Astronomical Observatory
+
+- name: Federico M. Vincentelli
+  affiliation: University of Southampton
+
+- name: Jorge Casares Velázquez
+  affiliation: Instituto Astrofísica de Canarias
+
+- name: Julien Malzac
+  affiliation: IRAP
+
+- name: Matt Middleton
+  affiliation: University of Southampton
+
+- name: Pablo Santos-Sanz
+  affiliation: Instituto de Astrofísica de Andalucía
+
+- name: Sera Markoff
+  affiliation: University of Amsterdam
+
+- name: Gregory Sivakoff
+  affiliation: University of Alberta
+
+- name: Tom Marsh
+  affiliation: University of Warwick
+
+- name: Vik Dhillon
+  affiliation: University of Sheffield
+
+- name: Noel Castro Segura
+  affiliation: University of Southampton

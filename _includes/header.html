@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="wordmark" href="index.html">JWST Timing Consortium</a>
+    <nav aria-label="Main">
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.url }}"{% if page.nav == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrap site-footer-inner">
+    <div>
+      <h2>Contact</h2>
+      <p>{{ site.contact.role }}: {{ site.contact.name }}<br>
+        <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+      <p>{% for line in site.contact.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+    </div>
+    <div class="fineprint">
+      <p>Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      <p>© 2019–{{ site.time | date: "%Y" }} JWST Timing Consortium</p>
+    </div>
+  </div>
+</footer>
