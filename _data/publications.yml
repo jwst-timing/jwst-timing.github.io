@@ -19,6 +19,13 @@
   arxiv: 2510.01338
   summary: JWST/MIRI finds bright, variable mid-infrared emission from GX 339–4 in its disc-dominated soft state, likely synchrotron radiation from the same hot plasma that produces the high-energy X-ray tail.
 
+- year: 2026
+  authors: Roemsri, P., McCarver, A., Maccarone, T. J., Shaw, A. W., Gandhi, P., Kaplan, D., Dang, T.
+  title: A web-based interactive visualization tool for astronomical time series
+  journal: AIP Conf. Proc. 3378, 040001 (APCT 2025)
+  url: https://pubs.aip.org/aip/acp/article-abstract/3378/1/040001/3376066/A-web-based-interactive-visualization-tool-for
+  summary: An interactive tool for choosing the phase binning of folded light curves in real time.
+
 - year: 2025
   authors: Borowski, E. S., Hynes, R. I., et al.
   title: The mid-infrared-emitting jet in the black hole V404 Cygni in quiescence
@@ -26,13 +33,6 @@
   doi: 10.3847/2041-8213/ae0322
   arxiv: 2506.20536
   summary: Rapid 21 µm flaring seen by JWST, together with simultaneous radio-to-X-ray data, shows the mid-infrared excess of V404 Cyg comes from a jet.
-
-- year: 2025
-  authors: Roemsri, P., McCarver, A., Maccarone, T. J., Shaw, A. W., Gandhi, P., Kaplan, D., Dang, T.
-  title: A web-based interactive visualization tool for astronomical time series
-  journal: Proc. APCT 2025, AIP Conf. Proc. 3378, 040001
-  url: https://pubs.aip.org/aip/acp/article-abstract/3378/1/040001/3376066/A-web-based-interactive-visualization-tool-for
-  summary: An interactive tool for choosing the phase binning of folded light curves in real time.
 
 - year: 2025
   authors: Shaw, A. W., Kaplan, D. L., Gandhi, P., et al.
