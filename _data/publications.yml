@@ -5,15 +5,6 @@
 # "note" is optional: a comment shown in a highlighted box (e.g. how the paper relates to the consortium).
 
 - year: 2026
-  authors: Santos-Sanz, P., et al.
-  title: JWST stellar occultation reveals unexpected changes in Chariklo's ring system
-  journal: Science Advances, 12 (37)
-  doi: 10.1126/sciadv.aeh4794
-  arxiv: 2510.06366
-  summary: The first stellar occultation planned and observed with JWST shows that the rings of the Centaur Chariklo have changed in just a few years.
-  note: Led by consortium members using NIRCam at a 3.3 Hz cadence. The occultation was cited as an early demonstration of JWST timing in Shaw et al. (2025).
-
-- year: 2026
   authors: Gandhi, P., Russell, D. M., et al.
   title: Infrared synchrotron emission in the soft state of GX 339–4 and the mid-infrared/X-ray luminosity plane of black hole X-ray binaries
   journal: MNRAS, 548, stag619
@@ -27,6 +18,15 @@
   journal: AIP Conf. Proc. 3378, 040001 (APCT 2025)
   url: https://pubs.aip.org/aip/acp/article-abstract/3378/1/040001/3376066/A-web-based-interactive-visualization-tool-for
   summary: An interactive tool for choosing the phase binning of folded light curves in real time.
+
+- year: 2026
+  authors: Santos-Sanz, P., et al.
+  title: JWST stellar occultation reveals unexpected changes in Chariklo's ring system
+  journal: Science Advances, 12 (37)
+  doi: 10.1126/sciadv.aeh4794
+  arxiv: 2510.06366
+  summary: The first stellar occultation planned and observed with JWST shows that the rings of the Centaur Chariklo have changed in just a few years.
+  note: Led by consortium members using NIRCam at a 3.3 Hz cadence. The occultation was cited as an early demonstration of JWST timing in Shaw et al. (2025).
 
 - year: 2025
   authors: Borowski, E. S., Hynes, R. I., et al.

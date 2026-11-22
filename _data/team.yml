@@ -11,7 +11,7 @@
 
 - name: Aarran Shaw
   role: co-PI
-  affiliation: U. Nevada Reno
+  affiliation: Butler University
 
 - name: Abigail Stevens
   affiliation: Michigan State University
@@ -26,7 +26,7 @@
   affiliation: University of Wisconsin-Madison
 
 - name: Mike Ressler
-  affiliation: Jet Propulsion Laboratory
+  affiliation: Jet Propulsion Laboratory (Retd)
 
 - name: Piergiorgio Casella
   affiliation: Osservatorio Astronomico di Roma
@@ -37,7 +37,7 @@
 - name: Phil Charles
   affiliation: University of Southampton
 
-- name: Tomaso Belloni
+- name: Tomaso Belloni (sorely missed)
   affiliation: INAF Osservatorio Astronomico di Brera
 
 - name: Craig Heinke
@@ -46,8 +46,8 @@
 - name: Rob Hynes
   affiliation: Louisiana State University
 
-- name: Anjali Rao
-  affiliation: University of Southampton
+- name: Eric Borowski
+  affiliation: Louisiana State University
 
 - name: Stacey Bright
   affiliation: Space Telescope Science Institute
@@ -71,10 +71,7 @@
   affiliation: South African Astronomical Observatory
 
 - name: Federico M. Vincentelli
-  affiliation: University of Southampton
-
-- name: Jorge Casares Velázquez
-  affiliation: Instituto Astrofísica de Canarias
+  affiliation: University of Canterbury
 
 - name: Julien Malzac
   affiliation: IRAP
@@ -86,16 +83,16 @@
   affiliation: Instituto de Astrofísica de Andalucía
 
 - name: Sera Markoff
-  affiliation: University of Amsterdam
+  affiliation: University of Cambridge
 
 - name: Gregory Sivakoff
   affiliation: University of Alberta
 
-- name: Tom Marsh
+- name: Tom Marsh (R.I.P)
   affiliation: University of Warwick
 
 - name: Vik Dhillon
   affiliation: University of Sheffield
 
 - name: Noel Castro Segura
-  affiliation: University of Southampton
+  affiliation: University of Warwick
