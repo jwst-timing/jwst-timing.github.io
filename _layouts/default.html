@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Spectral:ital,wght@0,400;0,500;0,700;1,400&display=swap">
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
+<body{% if page.hero %} class="has-hero"{% endif %}>
   <a class="skip" href="#main">Skip to content</a>
   {% include header.html %}
+  {% if page.hero %}{% include hero.html %}{% endif %}
   <main id="main" class="wrap">
     {{ content }}
   </main>

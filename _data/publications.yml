@@ -2,6 +2,7 @@
 # To add a paper, copy one block, paste it at the top, and edit. See README.md.
 # Fields: year, authors (as you want them shown), title, journal, and any of arxiv / doi / url.
 # "summary" is optional: one plain-language sentence shown under the title.
+# "note" is optional: a comment shown in a highlighted box (e.g. how the paper relates to the consortium).
 
 - year: 2026
   authors: Santos-Sanz, P., et al.
@@ -10,6 +11,7 @@
   doi: 10.1126/sciadv.aeh4794
   arxiv: 2510.06366
   summary: The first stellar occultation planned and observed with JWST shows that the rings of the Centaur Chariklo have changed in just a few years.
+  note: Led by consortium members using NIRCam at a 3.3 Hz cadence. The occultation was cited as an early demonstration of JWST timing in Shaw et al. (2025).
 
 - year: 2026
   authors: Gandhi, P., Russell, D. M., et al.
